@@ -2,30 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://eliseukloster.github.io/pt/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://eliseukloster.github.io/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://eliseukloster.github.io/pt/"
-                />
-  </url><url>
-    <loc>https://eliseukloster.github.io/pt/sobre/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://eliseukloster.github.io/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://eliseukloster.github.io/pt/sobre/"
-                />
-  </url><url>
     <loc>https://eliseukloster.github.io/pt/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -38,40 +14,16 @@
                 href="https://eliseukloster.github.io/pt/categories/"
                 />
   </url><url>
-    <loc>https://eliseukloster.github.io/pt/cv/</loc>
+    <loc>https://eliseukloster.github.io/pt/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://eliseukloster.github.io/cv/"
+                href="https://eliseukloster.github.io/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://eliseukloster.github.io/pt/cv/"
-                />
-  </url><url>
-    <loc>https://eliseukloster.github.io/pt/privado/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://eliseukloster.github.io/private/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://eliseukloster.github.io/pt/privado/"
-                />
-  </url><url>
-    <loc>https://eliseukloster.github.io/pt/resumo/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://eliseukloster.github.io/resume/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://eliseukloster.github.io/pt/resumo/"
+                href="https://eliseukloster.github.io/pt/"
                 />
   </url><url>
     <loc>https://eliseukloster.github.io/pt/tags/</loc>
@@ -84,18 +36,6 @@
                 rel="alternate"
                 hreflang="pt"
                 href="https://eliseukloster.github.io/pt/tags/"
-                />
-  </url><url>
-    <loc>https://eliseukloster.github.io/pt/trabalho/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://eliseukloster.github.io/work/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://eliseukloster.github.io/pt/trabalho/"
                 />
   </url>
 </urlset>

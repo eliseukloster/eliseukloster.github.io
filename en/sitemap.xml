@@ -15,16 +15,6 @@
                 />
   </url><url>
     <loc>https://eliseukloster.github.io/about/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://eliseukloster.github.io/pt/sobre/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://eliseukloster.github.io/about/"
-                />
   </url><url>
     <loc>https://eliseukloster.github.io/blog/</loc>
   </url><url>
@@ -41,40 +31,10 @@
                 />
   </url><url>
     <loc>https://eliseukloster.github.io/cv/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://eliseukloster.github.io/pt/cv/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://eliseukloster.github.io/cv/"
-                />
   </url><url>
     <loc>https://eliseukloster.github.io/private/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://eliseukloster.github.io/pt/privado/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://eliseukloster.github.io/private/"
-                />
   </url><url>
     <loc>https://eliseukloster.github.io/resume/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://eliseukloster.github.io/pt/resumo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://eliseukloster.github.io/resume/"
-                />
   </url><url>
     <loc>https://eliseukloster.github.io/tags/</loc>
     <xhtml:link
@@ -89,15 +49,5 @@
                 />
   </url><url>
     <loc>https://eliseukloster.github.io/work/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://eliseukloster.github.io/pt/trabalho/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://eliseukloster.github.io/work/"
-                />
   </url>
 </urlset>

@@ -117,7 +117,7 @@ header{
     margin: auto;
     font-family: 'Source Serif Pro', "Times New Roman", Times, serif;
     font-weight: normal;
-    text-align: justify;
+    text-align: left;
 }
 
 p {
@@ -154,7 +154,7 @@ img {
 
 
 .column-item{
-    text-align: justify;
+    text-align: left;
 }
 
 h1, h2 {
@@ -292,7 +292,7 @@ body {
 .footnotes li p{
     font-size: 1rem;
     margin: 0.75rem 0 0.75rem;
-    text-align: justify;
+    text-align: left;
 }
 
 .footnotes ol{

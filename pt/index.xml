@@ -5,54 +5,5 @@
     <link>https://eliseukloster.github.io/pt/</link>
     <description>Recent content on Eliseu Kloster</description>
     <generator>Hugo -- gohugo.io</generator><atom:link href="https://eliseukloster.github.io/pt/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>About</title>
-      <link>https://eliseukloster.github.io/pt/sobre/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://eliseukloster.github.io/pt/sobre/</guid>
-      <description> About </description>
-    </item>
-    
-    <item>
-      <title>CV</title>
-      <link>https://eliseukloster.github.io/pt/cv/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://eliseukloster.github.io/pt/cv/</guid>
-      <description>CV </description>
-    </item>
-    
-    <item>
-      <title>Private</title>
-      <link>https://eliseukloster.github.io/pt/privado/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://eliseukloster.github.io/pt/privado/</guid>
-      <description>Minha equação favorita:
-$$\nu_p(n!) = \sum _{k=1}^{\lfloor \log _{p}(n) \rfloor}{\left \lfloor \frac{n}{p^k} \right \rfloor}$$
-Minha equação menos favorita:
-$$\frac{\mathrm{d}y}{\mathrm{dx}} = 1 \iff \mathrm{d}y = \mathrm{d}x$$
-A equação mais inútil que eu já descobri: $$\text{I forgot}$$</description>
-    </item>
-    
-    <item>
-      <title>Resume</title>
-      <link>https://eliseukloster.github.io/pt/resumo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://eliseukloster.github.io/pt/resumo/</guid>
-      <description> </description>
-    </item>
-    
-    <item>
-      <title>Work</title>
-      <link>https://eliseukloster.github.io/pt/trabalho/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://eliseukloster.github.io/pt/trabalho/</guid>
-      <description> Work </description>
-    </item>
-    
   </channel>
 </rss>

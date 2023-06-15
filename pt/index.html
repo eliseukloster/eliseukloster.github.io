@@ -13,118 +13,54 @@
     <meta name = "description" content = "" />
 
     <!-- CSS Custom Sylesheet -->
-    <link rel="stylesheet" href="/css/style.css">
+    <link id="stylesheet" rel="stylesheet" href="/css/style.css">
 
     <!-- Icon Library -->
     <script src="https://kit.fontawesome.com/f3d0cf2abe.js" crossorigin="anonymous"></script>
 
     <!-- Enable KaTex-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" integrity="sha384-Xi8rHCmBmhbuyyhbI88391ZKP2dmfnOl4rT9ZfRI7mLTdk1wblIUnrIq35nqwEvC" crossorigin="anonymous">
-
-    <!-- The loading of KaTeX is deferred to speed up page rendering -->
-    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js" integrity="sha384-X/XCfMm41VSsqRNQgDerQczD69XqmjOOOwYQvr/uuC+j4OPoNhVgjdGFwhvN02Ja" crossorigin="anonymous"></script>
-
-    <!-- To automatically render math in text elements, include the auto-render extension: -->
-    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
-
-    <!-- To allow copying LaTex content -->
-    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/copy-tex.min.js" integrity="sha384-ww/583aHhxWkz5DEVn6OKtNiIaLi2iBRNZXfJRiY1Ai7tnJ9UXpEsyvOITVpTl4A" crossorigin="anonymous"></script>
     <script>
-            document.addEventListener("DOMContentLoaded", function() {
-                renderMathInElement(document.body, {
-                    delimiters: [
-                        {left: "$$", right: "$$", display: true},
-                        {left: "$", right: "$", display: false}
-                    ],
-                    // Goldmark hadnles markdown. The typographer extension replaces ' with ’
-                    // so we need to correct this manually if we don't want to disable the
-                    // entire extension.
-                    macros: {"\\’": "'"}
-                });
-            });
-    </script>
-    </head>
+        function changeStylesheet() {
+        var stylesheet = document.getElementById("stylesheet");
+        if (stylesheet.href.endsWith("/css/style.css")) {
+            stylesheet.href = "/css/style_aaa.css";
+        } else {
+            stylesheet.href = "/css/style.css";
+        }
+        }
+    </script></head>
     <body>        <header>
             <nav class="nav-bar">
-                <ul class="nav-item" id = "menu-home">
+                <ul class="nav-item" id = "menu-home" role="banner">
                     <li><a href="/pt/" title="Home">Eliseu Kloster</a></li>
                 </ul>
-                <ul class="nav-item" id = "menu-main">
+                <ul class="nav-item" id = "menu-main" role="navigation">
                     <li><a href="/pt/" title="Home">Home</a></li><li><a href="/pt/work/" title="Work">Work</a></li><li><a href="/pt/about/" title="About">About</a></li><li><a href="/pt/blog/" title="Blog">Blog</a></li>
                 </ul>
             </nav>
         </header>
         
         <div id="main">
+            
 <div class="content">
-    <div class="column-container">
-    <div class="column-item">
-      
-      <img  src="/square.png" alt="Square" style="padding: 0 15px 0 0;"/>
-      
-    </div>
-  
-    <div class="column-item">
-      <p>Estou no meu segundo ano de graduação em <a class = "link" href="https://www.northwestern.edu/" target="_blank">Northwestern University</a>.</p>
-<p>Atualmente, eu tenho um leque bem grande de interesses, mas tenho me envolvido particularmente com astrofísica teórica, matemática aplicada e ciência da computação teórica. A minha experiência mais recente nessas áreas foi (colocar script go aqui)</p>
-<p>Eu tenho uma página com os meus <a class = "link" href="/pt/trabalho/">trabalhos</a> mais recentes, um <a class = "link" href="/pt/resume/">currículo resumido</a> e um <a class = "link" href="/pt/cv/">CV</a>. Caso não esteja com pressa, eu também tenho alguns <a class = "link" href="/pt/blog/">posts</a> no meu blog e uma seção <a class = "link" href="pt//sobre/">sobre</a> mim.</p>
-
-    </div>
-  
+    
 </div>
 
-
-<h3 id="afiliaçõespast">Afiliações:<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></h3>
-<h3 id="northwestern-university">Northwestern University</h3>
-<ul>
-<li><a class = "link" href="https://physics.northwestern.edu/" target="_blank">Departamento de Física e Astronomia</a></li>
-<li><a class = "link" href="https://www.mccormick.northwestern.edu/mechanical/" target="_blank">Departamento de Engenharia Mecânica</a></li>
-<li><a class = "link" href="https://isp.northwestern.edu/" target="_blank">Programa Integrado de Ciências</a></li>
-<li><a class = "link" href="https://ciera.northwestern.edu/" target="_blank">Centro de Exploração e Pesquisa Interdisciplinar em Astrofísica</a></li>
-<li><a class = "link" href="https://www.gobrasa.org/" target="_blank">Associação de Estudantes Brasileiros no Exterior</a></li>
-<li><a class = "link" href="https://www.nustars.org/index.html" target="_blank">Sociedade de Tecnologia Espacial de Northwestern University</a></li>
-</ul>
-<h3 id="fundação-estudar">Fundação Estudar</h3>
-<ul>
-<li><a class = "link" href="">Technology Fellow</a><sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></li>
-</ul>
-<h3 id="contato">Contato:</h3>
-<p><a class = "link" href="mailto:ekloster@u.northwestern.edu">ekloster@u.northwestern.edu</a></p>
-<p>Slivka Hall, 106<br>
-2332 Campus Drive<br>
-Evanston, IL 60201</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<div class="footnotes" role="doc-endnotes">
-<hr>
-<ol>
-<li id="fn:1">
-<p>Minhas afiliações passadas estão disponíveis no meu <a class = "link" href="/pt/cv/#affiliations">CV</a>.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-<li id="fn:2">
-<p>Todo ano, a <a class = "link" href="https://www.estudar.org.br/" target="_blank">Fundação Estudar</a> concede uma bolsa de estudos para estudar no exterior e apoia o desenvolvimento de alguns jovens brasileiros com alto potencial para transformar e impactar a sociedade brasileira através da tecnologia. A Fundação Estudar é uma ONG fundada por Jorge Paulo Lemann, Marcel Telles e Beto Sicupira, em 1991.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-</ol>
-</div>
-
-</div>
-
-        </div><footer>
+        </div><footer role="contentinfo">
     <hr class="foothr">
     <div id = "social-media" class="footer-div">
-        <a href="mailto:ekloster@u.northwestern.edu" class="fa-solid fa-envelope" title="Email" target="_blank"></a>
-        <a href="https://www.linkedin.com/in/kf-eliseu/" class="fa-brands fa-linkedin-in" title="LinkedIn" target="_blank"></a>
-        <a href="https://github.com/eliseukloster" class="fa-brands fa-github" title="GitHub" target="_blank"></a>
+        <a href="mailto:ekloster@u.northwestern.edu" class="fa-solid fa-envelope" title="Email" aria-label="Email" target="_blank"></a>
+        <a href="https://www.linkedin.com/in/kf-eliseu/" class="fa-brands fa-linkedin-in" title="LinkedIn" aria-label="LinkedIn" target="_blank"></a>
+        <a href="https://github.com/eliseukloster" class="fa-brands fa-github" title="GitHub" aria-label="GitHub" target="_blank"></a>
     </div>
     <div class="footer-div">
         &#169 2023 <a href="/" style="text-decoration: none; color: black;">Eliseu Kloster</a>
     </div>
     <div class="footer-div">
-        This website is on <a href="#" class="link">Level AAA</a> conformance with the <a href="#" class="link" target="_blank">W3C Web Accessibility Initiative (WAI)</a>. 
+        This website is on <a href="https://www.w3.org/TR/WCAG21/#cc1" class="link" target="_blank">Level AA</a> conformance with the <a href="https://www.w3.org/WAI/" class="link" target="_blank">W3C Web Accessibility Initiative (WAI)</a>. 
     </div>
     <div class="footer-div">
-        The content and source code of this website are licensed under this <a href="https://github.com/eliseukloster/kloster/blob/e66d2af6069e718a6731203539aff4f1cb3a4625/LICENSE.MD" class="link" target="_blank">license</a>.
+        The content and source code of this website are licensed under this <a href="https://github.com/eliseukloster/eliseukloster.github.io/blob/main/LICENSE.MD" class="link" target="_blank">license</a>.
     </div>
 </footer>
     </body>
