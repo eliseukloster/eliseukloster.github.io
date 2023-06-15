@@ -1,0 +1,140 @@
+% documentclass
+\documentclass{article}
+
+% language
+\usepackage[american]{babel}
+
+% enconding
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+% paper size
+\usepackage[letterpaper, top=0.5in, bottom=0.5in, left=0.5in, right=0.5in]{geometry}
+
+% named colors
+\usepackage[dvipsnames]{xcolor}
+
+% to add images and scale text
+\usepackage{graphicx}  
+
+% improves typography
+\usepackage{microtype}        
+
+% separates paragraphs by white space
+\usepackage[parfill=0pt]{parskip}
+
+% allows URLs to break (almost) anywhere
+\usepackage{xurl}
+
+% metadata
+\usepackage[pdftitle={Eliseu's Resume},
+            pdfauthor={Eliseu Antonio Kloster Filho},
+            pdfsubject={Resume},
+            colorlinks=true,
+            citecolor=blue,
+            linkcolor=blue,
+            urlcolor=blue]{hyperref}         
+
+% removes boxes around links and sets Creator field
+\hypersetup{
+    hidelinks,
+    pdfcreator={LaTeX}
+}
+
+% fixes space after \textellipsis
+\usepackage{ellipsis}  
+
+% removes \, from all text when used for pdf fields (e.g. author)
+\pdfstringdefDisableCommands{\def\,{}}
+
+% extend enumerate
+\usepackage{enumitem}
+
+% datetime
+%\usepackage{datetime}
+
+
+\begin{document}
+% no numeration in first page
+\thispagestyle{empty}
+\begin{center}
+    \LARGE \textbf{Eliseu Antonio Kloster Filho} \\ 
+    \large 2332 Campus Drive \hfill \href{mailto:ekloster@u.northwestern.edu}{ekloster@u.northwestern.edu} \\
+    Evanston, IL, 60201 \hfill +1 (872) 810 5780
+\end{center}
+
+\large \textbf{Education}
+\vspace{0.2\baselineskip}
+\hrule\normalsize
+\textbf{Northwestern University} \hfill Evanston, IL \\
+B.A. Physics and Astronomy, Integrated Science (3.86/4.00 GPA) \hfill September 2021 – June 2025\medskip\\
+Relevant coursework: PHYSICS 450: Quantum Computing; PHYSICS 465: Advanced Topics in Nonlinear Dynamics (Disordered systems, complex networks); PHYSICS 414-1: Electrodynamics 1 (Relativistic Field Theory); PHYSICS 414-2: Electrodynamics 2 (Electromagnetic waves, nonlinear optics); PHYSICS 339: Quantum Mechanics; MATH 381: Fourier Analysis and BVP; MATH 382: Complex Analysis.
+
+\textbf{Institute for Pure and Applied Math (IMPA)} \hfill Rio de Janeiro, Brazil \\
+Summer course, 2d Computer Graphics \hfill January 2021 – March 2021 \\
+Created a vector graphics renderer from scratch, including antialising filters, projective transformations, and a quad-tree based acceleration algorithm. This course is geared towards undergraduate and master's students.
+
+\large \textbf{Research Experience}
+\vspace{0.2\baselineskip}
+\hrule\normalsize
+\textbf{Northwestern University} \hfill Evanston, IL \\
+Center for Applied Physics and Superconducting Technologies \hfill March 2023 – Present\\
+“Measuring material losses in superconducting quantum circuits using coplanar waveguide microwave resonators”
+\begin{itemize}[leftmargin=*]
+    \item Using superconducting microwave resonators as a proxy to investigate the performance improvement of superconducting qubits fabricated with various structural changes.
+    \item Measuring intrinsic material losses of niobium superconducting films capped with thin layers of non-oxidizing materials, and their impact on qubit coherence time.
+\end{itemize}
+\textbf{Northwestern University} \hfill Evanston, IL \\
+Center for Interdisciplinary Exploration and Research in Astrophysics \hfill June 2022 – December 2022\\
+“Migration of giant planets in protoplanetary disks”
+\begin{itemize}[leftmargin=*]
+    \item Awarded \$4000 Summer Research Grant to investigate the effect of planet eccentricity on the migration rate and direction of giant planets. Studied how the stability of elliptical orbits is affected by the interplay between the disk and the planet. 
+    \item Modified FARGO3D code, a hydrodynamics simulator, to allow the simulation of planetary systems with low-mass gas disks.
+\end{itemize}
+
+
+\large \textbf{Work Experience}
+\vspace{0.2\baselineskip}
+\hrule\normalsize
+\textbf{Northwestern University} \hfill Evanston, IL \\
+Teaching Assistant, PHYSICS 130-1: College Physics \hfill September 2022 – December 2022
+\begin{itemize}[leftmargin=*]
+    \item Led weekly discussion sections and office hours for 57 students. Graded assignments, and assisted in administrative activities.
+\end{itemize}
+
+\large \textbf{Leadership Experience}
+\vspace{0.2\baselineskip}
+\hrule\normalsize
+\textbf{Northwestern University} \hfill Evanston, IL \\
+Northwestern University Space Technology and Rocketry Society \hfill October 2021 – Present
+\begin{itemize}[leftmargin=*]
+    \item Member of one of seven funded teams in NASA’s 2023 BIG Idea Challenge, awarded \$167,928.38 for team of 25 students.
+    
+    \item Lead of the avionics team (7 people). Schedule and run weekly meetings while coordinating progress with other teams.
+
+\end{itemize}
+
+\large \textbf{Honors and Awards}
+\vspace{0.2\baselineskip}
+\hrule
+\small
+\begin{itemize}[leftmargin=*]
+    \item Selected to Integrated Science Program (Northwestern University).
+    \item Technology Fellow at Fundação Estudar (full cost of attending a higher education institution, 18 awarded that year). % it is aimed towards young Brazilian students with high potential of society transformation.}
+    \item Selected to the Brazilian Training team for International Astronomy Olympiads (40 out of 780 000 students were selected).
+    \item Accepted at Stanford Pre-Collegiate Summer Institutes program.
+    \item Winner of MIT Latin America vs COVID-19 Challenge (30 winning teams out of 4000).
+\end{itemize}
+
+
+\large \textbf{Other}
+\vspace{0.2\baselineskip}
+\hrule\normalsize
+
+\textbf{Languages}: Portuguese (native), English (fluent), German (beginner)
+
+\textbf{Technical Skills}: Python (Qiskit, NumPy, SciPy, Scikit-learn, Pandas, Matplotlib, PyTorch, NetworkX), Mathematica, C/C++, Lua, JavaScript, Shell Script, SolidWorks, nTopology, Arduino, Machine Shop Tools.
+
+\end{document}
+
+

@@ -4,7 +4,7 @@ This GitHub repository contains the source code of the website available at "[el
 
 MIT License
 
-Copyright (c) 2022 Eliseu Antonio Kloster Filho
+Copyright (c) 2023 Eliseu Antonio Kloster Filho
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
