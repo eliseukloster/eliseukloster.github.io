@@ -84,10 +84,10 @@ this right now: https://bugs.chromium.org/p/chromium/issues/detail?id=534732
 }
 
 #menu-main li{
-/*     outline: solid #E9DAC1 0.15rem;
+/*     outline: solid #bfbfbf 0.15rem;
     border-radius: 0.2rem; */
 /*     border-bottom: 0.15rem solid;
-    border-color: #E9DAC1; */
+    border-color: #bfbfbf; */
 
     padding: 0 1.6rem;
     margin: 0.4rem 0.4rem;
@@ -99,7 +99,7 @@ this right now: https://bugs.chromium.org/p/chromium/issues/detail?id=534732
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    border-bottom: solid #e9dac1 0.1rem;
+    border-bottom: solid #bfbfbf 0.1rem;
     padding-bottom: 10px;
 }
 
@@ -262,7 +262,7 @@ footer {
 }
 
 .foothr{
-    border-top: solid #e9dac1 0.1rem;
+    border-top: solid #bfbfbf 0.1rem;
     border-style: solid none none none;
     width: 100%;
 }
