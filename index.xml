@@ -11,47 +11,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://eliseukloster.github.io/about/</guid>
-      <description>Bio I am an undergraduate student majoring in Physics and Integrated Science at Northwestern University. I was born in Brazil, and grew up in a small farm surrounded by the Atlantic Forest. Being curious about the world is just natural in this environment. What really made me a Physicist is the appreciation for the mathematical tools that allowed me to abstract and predict nature, organize my ideas, and make new discoveries.</description>
-    </item>
-    
-    <item>
-      <title>CV</title>
-      <link>https://eliseukloster.github.io/cv/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://eliseukloster.github.io/cv/</guid>
-      <description>Eliseu Antonio Kloster Filho 2332 Campus Drive
-Evanston, IL, 60201 ekloster@u.northwestern.edu
-+1 (872) 810 5780 Education Northwestern University
-B.A. Physics and Astronomy, Integrated Science (3.86/4.00 GPA) Evanston, IL
-September 2021 – June 2025 Institute for Pure and Applied Math (IMPA)
-Summer course, 2d Computer Graphics Rio de Janeiro, Brazil
-January 2021 – March 2021 Colégio Pensi &amp;mdash; Tijuca II
-High School Rio de Janeiro, Brazil
-February 2020 – December 2020 Colégio Integral</description>
-    </item>
-    
-    <item>
-      <title>Private</title>
-      <link>https://eliseukloster.github.io/private/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://eliseukloster.github.io/private/</guid>
-      <description>My favorite equation:
-$$\nu_p(n!) = \sum _{k=1}^{\lfloor \log _{p}(n) \rfloor}{\left \lfloor \frac{n}{p^k} \right \rfloor}$$</description>
-    </item>
-    
-    <item>
-      <title>Resume</title>
-      <link>https://eliseukloster.github.io/resume/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://eliseukloster.github.io/resume/</guid>
-      <description>Eliseu Antonio Kloster Filho 2332 Campus Drive
-Evanston, IL, 60201 ekloster@u.northwestern.edu
-+1 (872) 810 5780 Education Northwestern University
-B.A. Physics and Astronomy, Integrated Science (3.86/4.00 GPA) Evanston, IL
-September 2021 – June 2025 Relevant coursework: PHYSICS 450: Quantum Computing; PHYSICS 465: Advanced Topics in Nonlinear Dynamics (Disordered systems, complex networks); PHYSICS 414-1: Electrodynamics 1 (Relativistic Field Theory); PHYSICS 414-2: Electrodynamics 2 (Electromagnetic waves, nonlinear optics); PHYSICS 339: Quantum Mechanics; MATH 381: Fourier Analysis and BVP; MATH 382: Complex Analysis.</description>
+      <description>Bio I am an undergraduate student majoring in Physics and Mathematics at Northwestern University. I was born in Brazil, and grew up in a small farm surrounded by the Atlantic Forest. Being curious about the world is just natural in this environment. What really made me a Physicist is the appreciation for the mathematical tools that allowed me to abstract and predict nature, organize my ideas, and make new discoveries.</description>
     </item>
     
     <item>
@@ -60,7 +20,7 @@ September 2021 – June 2025 Relevant coursework: PHYSICS 450: Quantum Computing
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://eliseukloster.github.io/work/</guid>
-      <description>Past I have worked on other exciting projects too, including research, course assignments, and personal projects. This non-exhaustive list contains some of the recent / interesting work that I have done. Note that a majority, but not all of them, are physics-related. Also note that topics are ordered first by type and then in reverse chronological order.
+      <description>2023 and earlier I have worked on other exciting projects too, including research, course assignments, and personal projects. This non-exhaustive list contains some of the recent / interesting work that I have done. Note that a majority, but not all of them, are physics-related. Also note that topics are ordered first by type and then in reverse chronological order.
 [Research] Measuring material losses in superconducting quantum circuits using coplanar waveguide microwave resonators Last summer, I worked on a research project in the intersection of physics and materials science.</description>
     </item>
     
