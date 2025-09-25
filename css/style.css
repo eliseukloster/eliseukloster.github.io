@@ -132,7 +132,7 @@ p {
 
 
 .link, .footnote-backref{
-    text-decoration:underline;
+    text-decoration:none;
     text-decoration-thickness: 1px;
     color: #54bab9;
 }
@@ -313,4 +313,16 @@ body {
     max-width: 900px;
     margin: auto;
     padding: 0.5% 3% 0;
+}
+
+.home-pic {
+    max-width: 100%;
+    height: fit-content;
+    max-height: 20rem;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+}
+
+#home-pic-div {
+    text-align: center;
 }
