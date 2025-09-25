@@ -137,6 +137,11 @@ p {
     color: #54bab9;
 }
 
+.link:hover, .footnote-backref:hover{
+    text-decoration:underline;
+    text-decoration-thickness: 1px;
+}
+
 .nav-item{
     margin: 0;
 }
